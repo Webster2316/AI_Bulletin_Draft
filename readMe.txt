@@ -25,4 +25,4 @@ under for noting:
   <!-- TEMPLATE FOR ADVISORY ITEM -->
   <!-- TEMPLATE FOR NOTING ITEM -->
 
-  you can easily ctrl+c each item by clicking the '⌄' to the left of the <tr> tag. This should collapse the item.
+Note: Each template includes an ending comment (e.g., <!-- END OF [Type of event] ITEM -->) to clearly indicate the end of the template section. Copy all code between the template header comment and the corresponding end comment when creating a new entry.

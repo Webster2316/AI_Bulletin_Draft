@@ -10,12 +10,12 @@ Items details can easily be edited in outlook so no need to work on that.
 This is to have editable fields and preserve styling. Outlook does not support copying/creating sections in its local editor.
 -Delete the examples
 
--copy the full code and go to outlook
+-copy the full code and go to outlook to send a new mail
 -If not installed, add the outlook add-in: Insert Html bt Designmodo
 -Opens up the add-in and paste your code
 You can edit item details here
 
-Ctrl F to find template:  
+Use Ctrl+F in your editor to locate templates by their comment tags: 
 event:
 <!-- EVENT ITEM TEMPLATE -->
 under for action:

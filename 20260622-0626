@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SSA Weekly Digest</title>
+</head>
+<body style="margin:0;padding:0;background-color:#f4f1ec;font-family:'Yu Gothic UI',sans-serif;color:#000000;font-size:15px;line-height:1.6;">
+
+<!-- ══ WRAPPER ══ -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f4f1ec;">
+<tr>
+<td align="center" style="padding:32px 20px;">
+
+<!-- ══ EMAIL CONTAINER ══ -->
+<table width="680" cellpadding="0" cellspacing="0" border="0" style="max-width:680px;width:100%;background:#ffffff;border:1px solid #e8e3da;">
+
+
+<!-- ══ HEADER; DO NOT CHANGE ══ --> 
+<tr>
+  <td style="padding:0;">
+
+    <img
+      src="https://raw.githubusercontent.com/Webster2316/Weekly_Digest_SSA/refs/heads/main/Banner.png"
+      width="400"
+      alt="SSA Weekly Digest"
+      style="display:block;width:100%;max-width:680px;border:0;">
+
+    <!-- Meta row -->
+    <table width="100%" cellpadding="0" cellspacing="0" border="0"
+           style="background:#1b76bc;">
+      <tr>
+        <td align="right"
+            style="padding:12px 24px;font-family:Arial,sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#ffffff;">
+          Issue 8 June - 12 June 2026
+        </td>
+      </tr>
+    </table>
+
+  </td>
+</tr>
+<!-- ══ END HEADER ══ -->
+
+  <!-- ══ SECTION 1: UPCOMING EVENTS ══ -->
+  <tr>
+  <td style="background-color:#281e7e;padding:14px 28px;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+    <td align="center" style="font-family:'Yu Gothic UI',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#f9f6ff;">
+      Upcoming Events for the Next Three Months
+    </td>
+    </tr>
+    </table>
+  </td>
+  </tr>
+
+<!-- EVENT ITEM EXAMPLE -->
+ 
+
+  <!-- EVENT: SAM -->
+  <tr>
+  <td style="border-bottom:1px solid #e8e3da;padding:0;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+      <!-- Date + Title row -->
+      <tr>
+      <td style="padding:14px 28px;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td width="52" valign="top" style="background-color:#281e7e;border-radius:3px;text-align:center;padding:6px 4px;width:52px;">
+            <span style="display:block;font-family:'Yu Gothic UI',sans-serif;font-size:20px;font-weight:700;color:#ffffff;line-height:1;">23</span>
+            <span style="display:block;font-family:'Yu Gothic UI',sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#f9f6ff;margin-top:3px;">Jul</span>
+          </td>
+          <td width="16">&nbsp;</td>
+          <td valign="top">
+            <p style="margin:0 0 3px;font-family:'Yu Gothic UI',sans-serif;font-size:15px;font-weight:700;color:#2bc4c2;line-height:1.3;">50th Shared Awareness Meeting (SAM) – Golden Jubilee Edition</p>
+            <p style="margin:0;font-family:'Yu Gothic UI',sans-serif;font-size:12px;color:#000000;letter-spacing:0.5px;">Singapore &nbsp;&#183;&nbsp; 2.30pm – 6.30pm (Registration from 2.00pm)</p>
+          </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+
+      <!-- Body -->
+      <tr>
+      <td style="padding:0 28px 16px 96px;font-family:'Yu Gothic UI',sans-serif;font-size:14px;line-height:1.7;color:#000000;border-top:1px solid #e8e3da;">
+        <p style="margin:10px 0 8px;">
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;margin-right:6px;">Ordinary Members</span>
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;">In-Person</span>
+        </p>
+        <p style="margin:0 0 6px;"><strong>Venue:</strong> Orchard Hotel, 442 Orchard Rd, Singapore 238879</p>
+        <p style="margin:0;">Registration: <a href="https://go.gov.sg/sam-registration" style="color:#81bce9;text-decoration:underline;">Register for 50th Shared Awareness Meeting – Golden Jubilee Edition</a></p>
+      </td>
+      </tr>
+
+    </table>
+  </td>
+  </tr>
+
+        <!-- EVENT: COPY PASTE ITEM ACCORDINGLY-->
+         <!-- EVENT ITEM TEMPLATE -->
+            <tr>
+  <td style="border-bottom:1px solid #e8e3da;padding:0;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+      <!-- Date + Title row -->
+      <tr>
+      <td style="padding:14px 28px;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td width="52" valign="top" style="background-color:#281e7e;border-radius:3px;text-align:center;padding:6px 4px;width:52px;">
+            <span style="display:block;font-family:'Yu Gothic UI',sans-serif;font-size:20px;font-weight:700;color:#ffffff;line-height:1;">day</span>
+            <span style="display:block;font-family:'Yu Gothic UI',sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#f9f6ff;margin-top:3px;">month</span>
+          </td>
+          <td width="16">&nbsp;</td>
+          <td valign="top">
+            <p style="margin:0 0 3px;font-family:'Yu Gothic UI',sans-serif;font-size:15px;font-weight:700;color:#2bc4c2;line-height:1.3;">Event name</p>
+            <p style="margin:0;font-family:'Yu Gothic UI',sans-serif;font-size:12px;color:#000000;letter-spacing:0.5px;">time frame</p>
+          </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+
+      <!-- Body -->
+      <tr>
+      <td style="padding:0 28px 16px 96px;font-family:'Yu Gothic UI',sans-serif;font-size:14px;line-height:1.7;color:#000000;border-top:1px solid #e8e3da;">
+        <p style="margin:10px 0 8px;">
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;margin-right:6px;">inivited group</span>
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;">type of event</span>
+        </p>
+        <p style="margin:0 0 6px;"><strong>Venue:</strong> edit venue name</p>
+        <p style="margin:0;">Registration: <a href="#" style="color:#81bce9;text-decoration:underline;">add registration link if applicable</a></p>
+          <p style="margin:0;">Event description if applicable</p>
+      </td>
+      </tr>
+
+    </table>
+  </td>
+  </tr>
+<!-- END OF EVENT ITEM -->
+
+ <tr>
+  <td style="border-bottom:1px solid #e8e3da;padding:0;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+      <!-- Date + Title row -->
+      <tr>
+      <td style="padding:14px 28px;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td width="52" valign="top" style="background-color:#281e7e;border-radius:3px;text-align:center;padding:6px 4px;width:52px;">
+            <span style="display:block;font-family:'Yu Gothic UI',sans-serif;font-size:20px;font-weight:700;color:#ffffff;line-height:1;">day</span>
+            <span style="display:block;font-family:'Yu Gothic UI',sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#f9f6ff;margin-top:3px;">month</span>
+          </td>
+          <td width="16">&nbsp;</td>
+          <td valign="top">
+            <p style="margin:0 0 3px;font-family:'Yu Gothic UI',sans-serif;font-size:15px;font-weight:700;color:#2bc4c2;line-height:1.3;">Event name</p>
+            <p style="margin:0;font-family:'Yu Gothic UI',sans-serif;font-size:12px;color:#000000;letter-spacing:0.5px;">time frame</p>
+          </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+
+      <!-- Body -->
+      <tr>
+      <td style="padding:0 28px 16px 96px;font-family:'Yu Gothic UI',sans-serif;font-size:14px;line-height:1.7;color:#000000;border-top:1px solid #e8e3da;">
+        <p style="margin:10px 0 8px;">
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;margin-right:6px;">inivited group</span>
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;">type of event</span>
+        </p>
+        <p style="margin:0 0 6px;"><strong>Venue:</strong> edit venue name</p>
+        <p style="margin:0;">Registration: <a href="#" style="color:#81bce9;text-decoration:underline;">add registration link if applicable</a></p>
+          <p style="margin:0;">Event description if applicable</p>
+      </td>
+      </tr>
+
+    </table>
+  </td>
+  </tr>
+
+   <tr>
+  <td style="border-bottom:1px solid #e8e3da;padding:0;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+      <!-- Date + Title row -->
+      <tr>
+      <td style="padding:14px 28px;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td width="52" valign="top" style="background-color:#281e7e;border-radius:3px;text-align:center;padding:6px 4px;width:52px;">
+            <span style="display:block;font-family:'Yu Gothic UI',sans-serif;font-size:20px;font-weight:700;color:#ffffff;line-height:1;">day</span>
+            <span style="display:block;font-family:'Yu Gothic UI',sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#f9f6ff;margin-top:3px;">month</span>
+          </td>
+          <td width="16">&nbsp;</td>
+          <td valign="top">
+            <p style="margin:0 0 3px;font-family:'Yu Gothic UI',sans-serif;font-size:15px;font-weight:700;color:#2bc4c2;line-height:1.3;">Event name</p>
+            <p style="margin:0;font-family:'Yu Gothic UI',sans-serif;font-size:12px;color:#000000;letter-spacing:0.5px;">time frame</p>
+          </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+
+      <!-- Body -->
+      <tr>
+      <td style="padding:0 28px 16px 96px;font-family:'Yu Gothic UI',sans-serif;font-size:14px;line-height:1.7;color:#000000;border-top:1px solid #e8e3da;">
+        <p style="margin:10px 0 8px;">
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;margin-right:6px;">inivited group</span>
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;">type of event</span>
+        </p>
+        <p style="margin:0 0 6px;"><strong>Venue:</strong> edit venue name</p>
+        <p style="margin:0;">Registration: <a href="#" style="color:#81bce9;text-decoration:underline;">add registration link if applicable</a></p>
+          <p style="margin:0;">Event description if applicable</p>
+      </td>
+      </tr>
+
+    </table>
+  </td>
+  </tr>
+
+
+
+
+  <!-- ══ SECTION 2: PAPERS, CIRCULARS & SURVEYS ══ -->
+   <!-- HEADING: DO NOT TOUCH -->
+  <tr>
+  <td style="background-color:#281e7e;padding:14px 28px;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+    <td align="center" style="font-family:'Yu Gothic UI',sans-serif;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#f9f6ff;">
+      Papers, Circulars &amp; Surveys
+    </td>
+    </tr>
+    </table>
+  </td>
+  </tr>
+<!-- ── FOR ACTION subheader ── -->
+  <tr>
+  <td style="background-color:#f4f1ec;padding:12px 28px;border-top:1px solid #e8e3da;border-bottom:1px solid #e8e3da;">
+    <table cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td width="8" height="8" style="background-color:#81bce9;border-radius:4px;font-size:1px;line-height:1px;width:8px;height:8px;">&nbsp;</td>
+      <td style="padding-left:10px;font-family:'Yu Gothic UI',sans-serif;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#281e7e;">For Action</td>
+    </tr>
+    </table>
+  </td>
+  </tr>
+
+<!-- FIXED REVIEW ITEM -->
+    <!-- PAPER: JMIC -->
+  <tr>
+  <td style="border-bottom:1px solid #e8e3da;padding:0;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+      <td style="padding:14px 28px;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td valign="top" style="white-space:nowrap;width:1%;padding-right:14px;">
+            <span style="display:inline-block;background:#d0a523;border-radius:2px;font-family:'Yu Gothic UI',sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#ffffff;padding:3px 8px;">Review</span>
+          </td>
+          <td valign="top">
+            <p style="margin:0 0 2px;font-family:'Yu Gothic UI',sans-serif;font-size:14px;font-weight:700;color:#2bc4c2;line-height:1.3;">Joint Maritime Information Center (JMIC) Advisory Notes</p>
+            <p style="margin:0;font-family:'Yu Gothic UI',sans-serif;font-size:12px;color:#000000;"><a href="https://ssaorgsg.sharepoint.com/sites/SSAKnowledgeHub/Bulletin/Forms/AllItems.aspx?id=%2Fsites%2FSSAKnowledgeHub%2FBulletin%2FJMIC&p=true&ga=1" style="color:#81bce9;text-decoration:underline;">SSA Knowledge Hub – JMIC Advisory Notes</a></p>
+          </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      <tr>
+      <td style="padding:0 28px 16px;font-family:'Yu Gothic UI',sans-serif;font-size:14px;line-height:1.7;color:#000000;background:#faf9f6;border-top:1px solid #e8e3da;">
+        <p style="margin:10px 0 6px;"><span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;">All Members</span></p>
+        <p style="margin:0;">Members are invited to review the revised guidelines and submit comments to the Secretariat. The circular updates watch scheduling requirements and introduces new rest hour documentation standards. Please flag any operational concerns.</p>
+      </td>
+      </tr>
+    </table>
+  </td>
+  </tr>
+
+   <!-- REVIEW ITEM: COPY PASTE ITEM ACCORDINGLY-->
+    <!-- DELETE IF NOT NEEDED -->
+  <!-- TEMPLATE FOR REVIEW ITEM -->
+
+<!-- END OF REVIEW ITEM -->
+
+
+   <!-- PUBLIC COMMENTS ITEM: COPY PASTE ITEM ACCORDINGLY-->
+    <!-- DELETE IF NOT NEEDED -->
+  <!-- TEMPLATE FOR PUBLIC COMMENTS ITEM -->
+  <tr>
+  <td style="border-bottom:1px solid #e8e3da;padding:0;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+      <td style="padding:14px 28px;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td valign="top" style="white-space:nowrap;width:1%;padding-right:14px;">
+            <span style="display:inline-block;background:#81bce9;border-radius:2px;font-family:'Yu Gothic UI',sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#f9f6ff;padding:3px 8px;">Public Comments</span>
+          </td>
+          <td valign="top">
+            <p style="margin:0 0 2px;font-family:'Yu Gothic UI',sans-serif;font-size:14px;font-weight:700;color:#2bc4c2;line-height:1.3;">Item Name</p>
+            <p style="margin:0;font-family:'Yu Gothic UI',sans-serif;font-size:12px;color:#000000;"><a href="https://ssaorgsg.sharepoint.com/:b:/s/SSAKnowledgeHub/IQCBNGbvSW7hS70dB0NdXWWAAfTPgaHmj7LaDJLGbvbhdck?e=5vZaZk" style="color:#81bce9;text-decoration:underline;">Main document link. Delete and add in main body if more than one</a></p>
+          </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      <tr>
+      <td style="padding:0 28px 16px;font-family:'Yu Gothic UI',sans-serif;font-size:14px;line-height:1.7;color:#000000;background:#faf9f6;border-top:1px solid #e8e3da;">
+       <p style="margin:10px 0 8px;">
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;margin-right:6px;">Committee 1</span>
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;">Committee 2</span>
+        </p>
+        <p style="margin:0 0 6px;font-family:'Yu Gothic UI',sans-serif;font-size:12px;font-weight:700;color:#cc3300;">&#9888; Urgent/deadline. edit accordingly</p>
+         <p style="margin:0 0 4px;font-family:'Yu Gothic UI',sans-serif;font-size:13px;font-weight:700;color:#000000;">Action Required</p>
+        <p style="margin:0 0 14px;">action required and provide comments or feedback to <a href="mailto:anis@ssa.org.sg" style="color:#81bce9;text-decoration:none;">anis@ssa.org.sg</a>, if any.</p>
+        <p style="margin:0 0 4px;font-family:'Yu Gothic UI',sans-serif;font-size:13px;font-weight:700;color:#000000;">Background</p>
+        <p style="margin:0;">backgroud details</p>
+      </td>
+      </tr>
+    </table>
+  </td>
+  </tr>
+<!-- END OF PUBLIC COMMENTS ITEM -->
+
+  <tr>
+  <td style="border-bottom:1px solid #e8e3da;padding:0;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+      <td style="padding:14px 28px;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td valign="top" style="white-space:nowrap;width:1%;padding-right:14px;">
+            <span style="display:inline-block;background:#81bce9;border-radius:2px;font-family:'Yu Gothic UI',sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#f9f6ff;padding:3px 8px;">Public Comments</span>
+          </td>
+          <td valign="top">
+            <p style="margin:0 0 2px;font-family:'Yu Gothic UI',sans-serif;font-size:14px;font-weight:700;color:#2bc4c2;line-height:1.3;">Item Name</p>
+            <p style="margin:0;font-family:'Yu Gothic UI',sans-serif;font-size:12px;color:#000000;"><a href="https://ssaorgsg.sharepoint.com/:b:/s/SSAKnowledgeHub/IQCBNGbvSW7hS70dB0NdXWWAAfTPgaHmj7LaDJLGbvbhdck?e=5vZaZk" style="color:#81bce9;text-decoration:underline;">Main document link. Delete and add in main body if more than one</a></p>
+          </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      <tr>
+      <td style="padding:0 28px 16px;font-family:'Yu Gothic UI',sans-serif;font-size:14px;line-height:1.7;color:#000000;background:#faf9f6;border-top:1px solid #e8e3da;">
+       <p style="margin:10px 0 8px;">
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;margin-right:6px;">Committee 1</span>
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;">Committee 2</span>
+        </p>
+        <p style="margin:0 0 6px;font-family:'Yu Gothic UI',sans-serif;font-size:12px;font-weight:700;color:#cc3300;">&#9888; Urgent/deadline. edit accordingly</p>
+         <p style="margin:0 0 4px;font-family:'Yu Gothic UI',sans-serif;font-size:13px;font-weight:700;color:#000000;">Action Required</p>
+        <p style="margin:0 0 14px;">action required and provide comments or feedback to <a href="mailto:anis@ssa.org.sg" style="color:#81bce9;text-decoration:none;">anis@ssa.org.sg</a>, if any.</p>
+        <p style="margin:0 0 4px;font-family:'Yu Gothic UI',sans-serif;font-size:13px;font-weight:700;color:#000000;">Background</p>
+        <p style="margin:0;">backgroud details</p>
+      </td>
+      </tr>
+    </table>
+  </td>
+  </tr>
+
+    <tr>
+  <td style="border-bottom:1px solid #e8e3da;padding:0;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+      <td style="padding:14px 28px;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td valign="top" style="white-space:nowrap;width:1%;padding-right:14px;">
+            <span style="display:inline-block;background:#81bce9;border-radius:2px;font-family:'Yu Gothic UI',sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#f9f6ff;padding:3px 8px;">Public Comments</span>
+          </td>
+          <td valign="top">
+            <p style="margin:0 0 2px;font-family:'Yu Gothic UI',sans-serif;font-size:14px;font-weight:700;color:#2bc4c2;line-height:1.3;">Item Name</p>
+            <p style="margin:0;font-family:'Yu Gothic UI',sans-serif;font-size:12px;color:#000000;"><a href="https://ssaorgsg.sharepoint.com/:b:/s/SSAKnowledgeHub/IQCBNGbvSW7hS70dB0NdXWWAAfTPgaHmj7LaDJLGbvbhdck?e=5vZaZk" style="color:#81bce9;text-decoration:underline;">Main document link. Delete and add in main body if more than one</a></p>
+          </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      <tr>
+      <td style="padding:0 28px 16px;font-family:'Yu Gothic UI',sans-serif;font-size:14px;line-height:1.7;color:#000000;background:#faf9f6;border-top:1px solid #e8e3da;">
+       <p style="margin:10px 0 8px;">
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;margin-right:6px;">Committee 1</span>
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;">Committee 2</span>
+        </p>
+        <p style="margin:0 0 6px;font-family:'Yu Gothic UI',sans-serif;font-size:12px;font-weight:700;color:#cc3300;">&#9888; Urgent/deadline. edit accordingly</p>
+         <p style="margin:0 0 4px;font-family:'Yu Gothic UI',sans-serif;font-size:13px;font-weight:700;color:#000000;">Action Required</p>
+        <p style="margin:0 0 14px;">action required and provide comments or feedback to <a href="mailto:anis@ssa.org.sg" style="color:#81bce9;text-decoration:none;">anis@ssa.org.sg</a>, if any.</p>
+        <p style="margin:0 0 4px;font-family:'Yu Gothic UI',sans-serif;font-size:13px;font-weight:700;color:#000000;">Background</p>
+        <p style="margin:0;">backgroud details</p>
+      </td>
+      </tr>
+    </table>
+  </td>
+  </tr>
+
+
+
+
+<!--  NEW SECTION -->
+  <!-- ── FOR NOTING subheader DO NOT TOUCH ── -->
+  <tr>
+  <td style="background-color:#f4f1ec;padding:12px 28px;border-top:1px solid #e8e3da;border-bottom:1px solid #e8e3da;">
+    <table cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td width="8" height="8" style="background-color:#d783ec;border-radius:4px;font-size:1px;line-height:1px;width:8px;height:8px;">&nbsp;</td>
+      <td style="padding-left:10px;font-family:'Yu Gothic UI',sans-serif;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#281e7e;">For Noting</td>
+    </tr>
+    </table>
+  </td>
+  </tr>
+
+
+
+
+  
+
+
+
+
+
+   <!-- FOR NOTING ITEM: COPY PASTE ITEM ACCORDINGLY-->
+    <!-- DELETE IF NOT NEEDED -->
+  <!-- TEMPLATE FOR NOTING ITEM -->
+  <tr>
+  <td style="border-bottom:1px solid #e8e3da;padding:0;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+      <td style="padding:14px 28px;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td valign="top" style="white-space:nowrap;width:1%;padding-right:14px;">
+            <span style="display:inline-block;background:#281e7e;border-radius:2px;font-family:'Yu Gothic UI',sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#f9f6ff;padding:3px 8px;">Doc src name(e.g IMO)</span>
+          </td>
+          <td valign="top">
+            <p style="margin:0 0 2px;font-family:'Yu Gothic UI',sans-serif;font-size:14px;font-weight:700;color:#2bc4c2;line-height:1.3;">Item name</p>
+            <p style="margin:0;font-family:'Yu Gothic UI',sans-serif;font-size:12px;color:#000000;"><a href="#" style="color:#81bce9;text-decoration:underline;">Document link either here</p>
+          </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      <tr>
+      <td style="padding:0 28px 16px;font-family:'Yu Gothic UI',sans-serif;font-size:14px;line-height:1.7;color:#000000;background:#faf9f6;border-top:1px solid #e8e3da;">
+     <p style="margin:10px 0 8px;">
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;margin-right:6px;">Committee 1</span>
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;">Committee 2</span>
+        </p>
+             <p style="margin:14px 0 4px;font-family:'Yu Gothic UI',sans-serif;font-size:13px;font-weight:700;color:#000000;">Documents:</p>
+        <table cellpadding="0" cellspacing="0" border="0" style="margin:0 0 14px;">
+          <tr>
+            <td style="width:24px;vertical-align:top;">1.</td>
+            <td><a href="#" style="color:#81bce9;text-decoration:underline;">Or link here. DELETE IF NOT NEEDED</a></td>
+          </tr>
+        </table>
+
+        <p style="margin:0 0 4px;font-family:'Yu Gothic UI',sans-serif;font-size:13px;font-weight:700;color:#000000;">Remarks:</p>
+        <p style="margin:0 0 6px;">Remarks to edit</p>
+        </td>
+      </tr>
+    </table>
+  </td>
+  </tr>
+<!-- END OF NOTING ITEM -->
+
+  <tr>
+  <td style="border-bottom:1px solid #e8e3da;padding:0;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+      <td style="padding:14px 28px;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td valign="top" style="white-space:nowrap;width:1%;padding-right:14px;">
+            <span style="display:inline-block;background:#281e7e;border-radius:2px;font-family:'Yu Gothic UI',sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#f9f6ff;padding:3px 8px;">Doc src name(e.g IMO)</span>
+          </td>
+          <td valign="top">
+            <p style="margin:0 0 2px;font-family:'Yu Gothic UI',sans-serif;font-size:14px;font-weight:700;color:#2bc4c2;line-height:1.3;">Item name</p>
+            <p style="margin:0;font-family:'Yu Gothic UI',sans-serif;font-size:12px;color:#000000;"><a href="#" style="color:#81bce9;text-decoration:underline;">Document link either here</p>
+          </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      <tr>
+      <td style="padding:0 28px 16px;font-family:'Yu Gothic UI',sans-serif;font-size:14px;line-height:1.7;color:#000000;background:#faf9f6;border-top:1px solid #e8e3da;">
+     <p style="margin:10px 0 8px;">
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;margin-right:6px;">Committee 1</span>
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;">Committee 2</span>
+        </p>
+             <p style="margin:14px 0 4px;font-family:'Yu Gothic UI',sans-serif;font-size:13px;font-weight:700;color:#000000;">Documents:</p>
+        <table cellpadding="0" cellspacing="0" border="0" style="margin:0 0 14px;">
+          <tr>
+            <td style="width:24px;vertical-align:top;">1.</td>
+            <td><a href="#" style="color:#81bce9;text-decoration:underline;">Or link here. DELETE IF NOT NEEDED</a></td>
+          </tr>
+        </table>
+
+        <p style="margin:0 0 4px;font-family:'Yu Gothic UI',sans-serif;font-size:13px;font-weight:700;color:#000000;">Remarks:</p>
+        <p style="margin:0 0 6px;">Remarks to edit</p>
+        </td>
+      </tr>
+    </table>
+  </td>
+  </tr>
+
+
+    <tr>
+  <td style="border-bottom:1px solid #e8e3da;padding:0;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+      <td style="padding:14px 28px;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td valign="top" style="white-space:nowrap;width:1%;padding-right:14px;">
+            <span style="display:inline-block;background:#281e7e;border-radius:2px;font-family:'Yu Gothic UI',sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#f9f6ff;padding:3px 8px;">Doc src name(e.g IMO)</span>
+          </td>
+          <td valign="top">
+            <p style="margin:0 0 2px;font-family:'Yu Gothic UI',sans-serif;font-size:14px;font-weight:700;color:#2bc4c2;line-height:1.3;">Item name</p>
+            <p style="margin:0;font-family:'Yu Gothic UI',sans-serif;font-size:12px;color:#000000;"><a href="#" style="color:#81bce9;text-decoration:underline;">Document link either here</p>
+          </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      <tr>
+      <td style="padding:0 28px 16px;font-family:'Yu Gothic UI',sans-serif;font-size:14px;line-height:1.7;color:#000000;background:#faf9f6;border-top:1px solid #e8e3da;">
+     <p style="margin:10px 0 8px;">
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;margin-right:6px;">Committee 1</span>
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;">Committee 2</span>
+        </p>
+             <p style="margin:14px 0 4px;font-family:'Yu Gothic UI',sans-serif;font-size:13px;font-weight:700;color:#000000;">Documents:</p>
+        <table cellpadding="0" cellspacing="0" border="0" style="margin:0 0 14px;">
+          <tr>
+            <td style="width:24px;vertical-align:top;">1.</td>
+            <td><a href="#" style="color:#81bce9;text-decoration:underline;">Or link here. DELETE IF NOT NEEDED</a></td>
+          </tr>
+        </table>
+
+        <p style="margin:0 0 4px;font-family:'Yu Gothic UI',sans-serif;font-size:13px;font-weight:700;color:#000000;">Remarks:</p>
+        <p style="margin:0 0 6px;">Remarks to edit</p>
+        </td>
+      </tr>
+    </table>
+  </td>
+  </tr>
+
+
+    <tr>
+  <td style="border-bottom:1px solid #e8e3da;padding:0;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+      <td style="padding:14px 28px;">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td valign="top" style="white-space:nowrap;width:1%;padding-right:14px;">
+            <span style="display:inline-block;background:#281e7e;border-radius:2px;font-family:'Yu Gothic UI',sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#f9f6ff;padding:3px 8px;">Doc src name(e.g IMO)</span>
+          </td>
+          <td valign="top">
+            <p style="margin:0 0 2px;font-family:'Yu Gothic UI',sans-serif;font-size:14px;font-weight:700;color:#2bc4c2;line-height:1.3;">Item name</p>
+            <p style="margin:0;font-family:'Yu Gothic UI',sans-serif;font-size:12px;color:#000000;"><a href="#" style="color:#81bce9;text-decoration:underline;">Document link either here</p>
+          </td>
+        </tr>
+        </table>
+      </td>
+      </tr>
+      <tr>
+      <td style="padding:0 28px 16px;font-family:'Yu Gothic UI',sans-serif;font-size:14px;line-height:1.7;color:#000000;background:#faf9f6;border-top:1px solid #e8e3da;">
+     <p style="margin:10px 0 8px;">
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;margin-right:6px;">Committee 1</span>
+          <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;border-radius:2px;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding:2px 8px;">Committee 2</span>
+        </p>
+             <p style="margin:14px 0 4px;font-family:'Yu Gothic UI',sans-serif;font-size:13px;font-weight:700;color:#000000;">Documents:</p>
+        <table cellpadding="0" cellspacing="0" border="0" style="margin:0 0 14px;">
+          <tr>
+            <td style="width:24px;vertical-align:top;">1.</td>
+            <td><a href="#" style="color:#81bce9;text-decoration:underline;">Or link here. DELETE IF NOT NEEDED</a></td>
+          </tr>
+        </table>
+
+        <p style="margin:0 0 4px;font-family:'Yu Gothic UI',sans-serif;font-size:13px;font-weight:700;color:#000000;">Remarks:</p>
+        <p style="margin:0 0 6px;">Remarks to edit</p>
+        </td>
+      </tr>
+    </table>
+  </td>
+  </tr>
+
+  
+  <!-- ══ FOOTER ══ -->
+  <tr>
+  <td style="background-color:#281e7e;padding:24px 28px;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/company/singapore-shipping-association" target="_blank" title="LinkedIn" style="display:inline-block;width:28px;height:28px;background:#ffffff;border-radius:14px;text-align:center;font-family:'Yu Gothic UI',sans-serif;font-size:13px;font-weight:700;color:#281e7e;text-decoration:none;line-height:28px;margin-bottom:12px;">in</a>
+      <br>
+      <p style="margin:0 0 8px;font-family:'Yu Gothic UI',sans-serif;font-size:12px;color:#ffffff;line-height:1.7;">You are receiving this Weekly Digest because you are a Tier 1 member of an SSA Committee. This Weekly Digest is circulated to keep committee members informed of developments and matters under consideration across SSA Committees. As this distribution is tied to committee membership, members who wish to discontinue receiving the Digest will need to resign from their committee appointment by contacting <a href="mailto:ssa.admin@ssa.org.sg" style="color:#81bce9;text-decoration:none;">ssa.admin@ssa.org.sg</a>.</p>
+  
+    </td>
+    </tr>
+    </table>
+  </td>
+  </tr>
+
+
+</table>
+<!-- ══ END EMAIL CONTAINER ══ -->
+
+</td>
+</tr>
+</table>
+<!-- ══ END WRAPPER ══ -->
+
+</body>
+</html>

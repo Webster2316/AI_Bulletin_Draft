@@ -5,7 +5,7 @@ https://webster2316.github.io/Weekly_Digest_SSA/
 
 METHOD 1:
 -Create new file and name it by the week. keep the format YYYY-MM_DD-MM_DD.html
--copy paste everything in Index.html into the new file. 
+-copy paste everything in Index.html/ from the previous week's file(To save time from having to enter all events all over) into the new file. 
 Items details can easily be edited in outlook so no need to work on that.
 -Based on the items for the week, copy paste/Delete the each item SECTION. 
 This is to have editable fields and preserve styling. Outlook does not support copying/creating sections in its local editor.

@@ -1,673 +1,309 @@
 <!doctype html>
-<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!--[if !mso]><!-->
-  <meta name="x-apple-disable-message-reformatting" />
-  <!--<![endif]-->
-  <title>SSA Weekly Digest</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SSA Monthly AI Newsletter</title>
+<style>
+/* ============================== RESET ============================== */
+body, table, td, p, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+img { -ms-interpolation-mode: bicubic; border: 0; outline: none; text-decoration: none; display: block; }
+table { border-collapse: collapse; }
+body { margin: 0 !important; padding: 0 !important; width: 100% !important; background-color: #eef2f5; font-family: Arial, Helvetica, sans-serif; }
+a { text-decoration: none; }
 
-  <!--[if mso]>
-  <noscript>
-    <xml>
-      <o:OfficeDocumentSettings>
-        <o:PixelsPerInch>96</o:PixelsPerInch>
-      </o:OfficeDocumentSettings>
-    </xml>
-  </noscript>
-  <![endif]-->
-
-  <style type="text/css">
-    /* ── RESET ── */
-    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
-    img { -ms-interpolation-mode: bicubic; border: 0; display: block; outline: none; text-decoration: none; }
-    body { margin: 0 !important; padding: 0 !important; background-color: #f4f1ec; }
-
-    /* ── LINKS ── */
-    a[x-apple-data-detectors] {
-      color: inherit !important;
-      text-decoration: none !important;
-    }
-
-    /* ── MOBILE ── */
-    @media only screen and (max-width: 620px) {
-
-      /* Container goes full width */
-      .email-container {
-        width: 100% !important;
-        max-width: 100% !important;
-      }
-
-      /* Header image fills width */
-      .header-img {
-        width: 100% !important;
-        height: auto !important;
-      }
-
-      /* Date badge + title: stack vertically */
-      .event-date-cell {
-        display: block !important;
-        width: 100% !important;
-        text-align: left !important;
-        padding-bottom: 8px !important;
-      }
-
-      .event-spacer-cell {
-        display: none !important;
-      }
-
-      .event-title-cell {
-        display: block !important;
-        width: 100% !important;
-      }
-
-      /* Body indent: remove on mobile so text has full width */
-      .body-indented {
-        padding-left: 28px !important;
-      }
-
-      /* Badge tag cells on mobile */
-      .badge-cell {
-        display: block !important;
-        margin-bottom: 6px !important;
-      }
-
-      /* Reduce side padding on mobile */
-      .pad-sides {
-        padding-left: 16px !important;
-        padding-right: 16px !important;
-      }
-
-      /* Affected products table: allow horizontal scroll */
-      .products-table {
-        width: 100% !important;
-        font-size: 12px !important;
-      }
-
-      /* Footer padding */
-      .footer-cell {
-        padding: 20px 16px !important;
-      }
-
-      /* Meta row text */
-      .meta-row td {
-        padding: 10px 16px !important;
-        font-size: 10px !important;
-      }
-
-      /* Section headings */
-      .section-heading td {
-        padding: 12px 16px !important;
-      }
-
-      /* Sub-headings */
-      .sub-heading td {
-        padding: 10px 16px !important;
-      }
-    }
-  </style>
+/* ============================== MOBILE ============================== */
+@media screen and (max-width: 620px) {
+  .email-container { width: 100% !important; max-width: 100% !important; }
+  .content-padding { padding-left: 22px !important; padding-right: 22px !important; }
+  .issue-padding { padding-left: 22px !important; padding-right: 22px !important; }
+  .issue-title { font-size: 24px !important; }
+  .article-title { font-size: 20px !important; }
+  .banner-image { width: 100% !important; height: auto !important; }
+}
+</style>
+<!--[if mso]>
+<style>
+body, table, td { font-family: Arial, Helvetica, sans-serif !important; }
+</style>
+<![endif]-->
 </head>
 
+<body style="margin: 0; padding: 0; background-color: #eef2f5">
+<!-- ========================================================= OUTER WRAPPER ========================================================= -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#eef2f5" style="width: 100%; background-color: #eef2f5">
+<tr>
+<td align="center" valign="top" style="padding: 30px 10px">
+
+<!-- ========================================================= MAIN CONTAINER ========================================================= -->
+<table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" class="email-container" bgcolor="#ffffff" style="width: 600px; max-width: 600px; background-color: #ffffff">
+
+<!-- ========================================================= CUSTOM BANNER ========================================================= -->
+<tr>
+<td align="center" valign="middle" bgcolor="#d8dee8" style="background-color: #d8dee8; padding: 0">
+<img src="https://via.placeholder.com/600x220/d8dee8/5f6b7a?text=CUSTOM+BANNER" width="600" height="220" alt="SSA Monthly AI Newsletter Banner" class="banner-image" style="display: block; width: 600px; height: 220px; max-width: 100%; border: 0; outline: none; text-decoration: none;" />
+</td>
+</tr>
+
+<!-- ========================================================= ISSUE HEADER ========================================================= -->
+<tr>
+<td align="left" valign="top" bgcolor="#1F3A5F" class="issue-padding" style="padding: 22px 32px; background-color: #1f3a5f">
+<!-- Outlook gradient fallback -->
 <!--[if mso]>
-<body style="margin:0;padding:0;background-color:#f4f1ec;font-family:'Yu Gothic UI',Arial,sans-serif;color:#000000;font-size:15px;line-height:1.6;">
+<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:536px; height:82px;">
+<v:fill type="gradient" color="#1F3A5F" color2="#5B3F8C" angle="0" />
+<v:textbox inset="0,0,0,0">
+<![endif]-->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="left" style="font-family: Arial, Helvetica, sans-serif; color: #ffffff;">
+<p class="issue-title" style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 28px; line-height: 34px; font-weight: bold; color: #ffffff;">Issue 03 | July 2026</p>
+<p style="margin: 8px 0 0 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; color: #ffffff;">Scaling AI from awareness to practical adoption across the maritime industry</p>
+</td>
+</tr>
+</table>
+<!--[if mso]>
+</v:textbox>
+</v:rect>
+<![endif]-->
+</td>
+</tr>
+
+<!-- ========================================================= CONTENT ========================================================= -->
+<tr>
+<td align="left" valign="top" bgcolor="#ffffff" class="content-padding" style="padding: 32px; background-color: #ffffff">
+
+<!-- ========================================================= SECTION 1 — AWARENESS ========================================================= -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#1F3A5F" style="padding: 10px 16px; background-color: #1f3a5f; font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 24px; font-weight: bold; color: #ffffff;">1. Awareness</td>
+</tr>
+</table>
+
+<!-- ARTICLE TITLE -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="padding: 22px 0 14px 0">
+<p class="article-title" style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 22px; line-height: 28px; font-weight: bold; color: #5b3f8c;">Emerging AI Use Cases Across the Maritime Industry</p>
+</td>
+</tr>
+</table>
+
+<p style="margin: 0 0 14px 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #2d3748;">As organisations gain confidence through early AI initiatives, attention is increasingly shifting towards scaling successful use cases across the business. Rather than viewing AI as a standalone technology, organisations are exploring how it can be embedded into existing workflows to improve productivity, reduce repetitive tasks and support more informed decision-making.</p>
+
+<p style="margin: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; color: #2d3748; font-weight: bold;">Examples of AI applications currently being explored include:</p>
+
+<!-- BULLET LIST -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td valign="top" width="20" style="font-size: 14px; line-height: 24px">•</td><td valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #2d3748; padding-bottom: 5px;">AI-assisted voyage planning and route optimisation</td></tr>
+<tr><td valign="top" width="20">•</td><td valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #2d3748; padding-bottom: 5px;">Predictive maintenance using equipment and sensor data</td></tr>
+<tr><td valign="top" width="20">•</td><td valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #2d3748; padding-bottom: 5px;">Cargo and logistics optimisation</td></tr>
+<tr><td valign="top" width="20">•</td><td valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #2d3748; padding-bottom: 5px;">Port and terminal operations optimisation</td></tr>
+<tr><td valign="top" width="20">•</td><td valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #2d3748; padding-bottom: 5px;">AI-powered safety monitoring and risk assessment</td></tr>
+<tr><td valign="top" width="20">•</td><td valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #2d3748; padding-bottom: 5px;">Internal knowledge management and intelligent document search</td></tr>
+<tr><td valign="top" width="20">•</td><td valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #2d3748; padding-bottom: 5px;">Fleet performance and emissions optimisation</td></tr>
+<tr><td valign="top" width="20">•</td><td valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #2d3748;">Autonomous vessel technologies and decision support</td></tr>
+</table>
+
+<!-- SUBHEADING -->
+<p style="margin: 26px 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 17px; line-height: 23px; font-weight: bold; color: #1f5e4e;">Maritime AI Readiness Assessment Ongoing</p>
+
+<p style="margin: 0 0 14px 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #2d3748;">The Maritime and Port Authority of Singapore (MPA) is currently conducting the Maritime AI Readiness Assessment for the sea transport sector using the AI Readiness Index framework developed by AI Singapore.</p>
+
+<p style="margin: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; font-weight: bold; color: #2d3748;">The assessment aims to help companies:</p>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; padding-bottom: 5px;">Understand their current AI readiness level</td></tr>
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; padding-bottom: 5px;">Identify gaps in digital and AI capabilities</td></tr>
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;">Support future industry programme development</td></tr>
+</table>
+
+<!-- HIGHLIGHT BOX -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="padding: 18px; background-color: #f4f7fb; border-left: 4px solid #1f5e4e;">
+<p style="margin: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; font-weight: bold; color: #2d3748;">Call for Participation</p>
+<p style="margin: 0 0 12px 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; color: #2d3748;">Companies are encouraged to nominate a representative familiar with their organisation's technology adoption status (CTO, CIO, Digital Lead or Senior Management representative).</p>
+<p style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; color: #2d3748;">Assessment Link: <a href="https://go.gov.sg/maritime-airi" style="color: #5b3f8c; text-decoration: underline; font-weight: bold;">go.gov.sg/maritime-airi</a></p>
+</td>
+</tr>
+</table>
+
+<!-- LEARNING JOURNEY -->
+<p style="margin: 26px 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 17px; line-height: 23px; font-weight: bold; color: #1f5e4e;">Building a Structured Maritime AI Learning Journey</p>
+
+<p style="margin: 0 0 14px 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #2d3748;">SSA is currently curating a structured AI learning journey to help maritime companies navigate the growing number of AI tools, concepts and training programmes available.</p>
+
+<p style="margin: 0 0 8px 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; color: #2d3748;">The programme will progressively support organisations through three stages:</p>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td width="25" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;">1.</td><td valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;">Awareness &amp; Understanding</td></tr>
+<tr><td width="25" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;">2.</td><td valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;">Skills Development &amp; Experimentation</td></tr>
+<tr><td width="25" valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;">3.</td><td valign="top" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;">Operational Implementation &amp; Adoption</td></tr>
+</table>
+
+<p style="margin: 14px 0 0 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #2d3748;">Further training runs and AI-related learning activities will be shared progressively.</p>
+
+<!-- ========================================================= DIVIDER ========================================================= -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td height="32" style="height: 32px; border-bottom: 1px solid #e5e7eb; font-size: 1px; line-height: 1px;">&nbsp;</td></tr>
+</table>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+<tr><td height="32" style="height: 32px; font-size: 1px; line-height: 1px">&nbsp;</td></tr>
+</table>
+
+<!-- ========================================================= SECTION 2 — TRAINING ========================================================= -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#5B3F8C" style="padding: 10px 16px; background-color: #5b3f8c; font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 24px; font-weight: bold; color: #ffffff;">2. Training</td>
+</tr>
+</table>
+
+<p style="margin: 22px 0 14px 0; font-family: Arial, Helvetica, sans-serif; font-size: 22px; line-height: 28px; font-weight: bold; color: #5b3f8c;">SSA AI Training &amp; Industry Activities</p>
+
+<p style="margin: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 17px; line-height: 23px; font-weight: bold; color: #1f5e4e;">Navigating the Journey: Managing AI-Related Risk</p>
+
+<p style="margin: 0 0 14px 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; font-style: italic; color: #5f6b7a;">Conducted in partnership with PwC</p>
+
+<p style="margin: 0 0 14px 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #2d3748;">The programme focuses on responsible AI adoption by helping participants understand both the opportunities and risks of generative AI.</p>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; padding-bottom: 5px;">Explore principles of responsible AI adoption</td></tr>
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; padding-bottom: 5px;">Understand AI and GenAI risks</td></tr>
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; padding-bottom: 5px;">Learn practical AI risk mitigation techniques</td></tr>
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; padding-bottom: 5px;">Identify AI-related cyber threats and security measures</td></tr>
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;">Gain insights into AI governance frameworks</td></tr>
+</table>
+
+<!-- PURPLE HIGHLIGHT -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="padding: 18px; background-color: #f4f7fb; border-left: 4px solid #5b3f8c;">
+<p style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; color: #2d3748;">Designed for maritime professionals and teams seeking to adopt AI safely, securely and responsibly.</p>
+</td>
+</tr>
+</table>
+
+<!-- ========================================================= DIVIDER ========================================================= -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td height="32" style="height: 32px; border-bottom: 1px solid #e5e7eb; font-size: 1px; line-height: 1px;">&nbsp;</td></tr>
+</table>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+<tr><td height="32" style="height: 32px; font-size: 1px; line-height: 1px">&nbsp;</td></tr>
+</table>
+
+<!-- ========================================================= SECTION 3 — ADOPTION ========================================================= -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#1F5E4E" style="padding: 10px 16px; background-color: #1f5e4e; font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 24px; font-weight: bold; color: #ffffff;">3. Adoption</td>
+</tr>
+</table>
+
+<p style="margin: 22px 0 14px 0; font-family: Arial, Helvetica, sans-serif; font-size: 22px; line-height: 28px; font-weight: bold; color: #5b3f8c;">Funding Support for AI Adoption</p>
+
+<p style="margin: 0 0 14px 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #2d3748;">Various grants and funding schemes are available to support companies exploring digitalisation and AI adoption initiatives.</p>
+
+<p style="margin: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; font-weight: bold; color: #2d3748;">Funding may support:</p>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; padding-bottom: 5px;">Digital transformation projects</td></tr>
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; padding-bottom: 5px;">AI solution implementation</td></tr>
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; padding-bottom: 5px;">Workforce upskilling</td></tr>
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;">Innovation and capability development</td></tr>
+</table>
+
+<!-- GREEN HIGHLIGHT -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="padding: 18px; background-color: #f4f7fb; border-left: 4px solid #1f5e4e;">
+<p style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; color: #2d3748;">Kindly refer to the attached grants summary for detailed funding information.</p>
+</td>
+</tr>
+</table>
+
+<p style="margin: 18px 0 14px 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #2d3748;">To better understand members' AI adoption journeys, SSA representatives may reach out to discuss your organisation's current AI initiatives, challenges and areas of interest.</p>
+
+<!-- ========================================================= EVENT ========================================================= -->
+<p style="margin: 26px 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 17px; line-height: 23px; font-weight: bold; color: #1f5e4e;">AI Seminar: From Hype to Practical Value</p>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td bgcolor="#eef6f3" style="padding: 18px; background-color: #eef6f3; border: 1px solid #d7e9e2;">
+<p style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #2d3748;"><strong style="color: #1f5e4e">Date:</strong> 12 August 2026<br /><strong style="color: #1f5e4e">Time:</strong> 9.00am – 1.00pm<br /><strong style="color: #1f5e4e">Venue:</strong> Amara Singapore Hotel, Ballroom 2 (Level 3)<br />165 Tanjong Pagar Road, Singapore 088539</p>
+</td>
+</tr>
+</table>
+
+<p style="margin: 18px 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #2d3748;">Slots are limited. This complimentary seminar encourages early registration to secure your place.</p>
+
+<!-- ========================================================= OUTLOOK-SAFE BUTTON ========================================================= -->
+<table role="presentation" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td align="center" bgcolor="#5B3F8C" style="background-color: #5b3f8c; border-radius: 30px">
+<!--[if mso]>
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://email.circulars.ssa.org.sg/tl/cws/eyJpdiI6Img4T20xNzZwZFpsOEhXaGFwS0VRdkE9PSIsInZhbHVlIjoibmswK0Vrc0dKUHR1UmxvU0M1WTNKbFYvRHFKaGRlWE51VjlzYWswSVRXVWhUb2pHL1RZZUdRNFdhdzRXWU55bzArRlhRTTd4Zk5zaUxlR0gyMDhEM3BMcjFrME8vc0pKYnJISkMvbCtZbVljR3JTN2FSMXgrd3RtMzI5NFVYZXoiLCJtYWMiOiJmNDU3YjA5Y2MwMTExMWQ2NTExM2U3NTkwZDVmZmU1MWIzZTEzYThiZTQwY2Y1Y2E3YjFiZTgwZmM2OTI3MjMzIiwidGFnIjoiIn0," style="height: 42px; v-text-anchor: middle; width: 190px;" arcsize="50%" fillcolor="#5B3F8C" strokecolor="#5B3F8C">
+<w:anchorlock />
+<center style="color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold;">Register for the Seminar</center>
+</v:roundrect>
 <![endif]-->
 <!--[if !mso]><!-->
-<body style="margin:0;padding:0;background-color:#f4f1ec;font-family:'Yu Gothic UI',Arial,sans-serif;color:#000000;font-size:15px;line-height:1.6;">
+<a href="https://email.circulars.ssa.org.sg/tl/cws/eyJpdiI6Img4T20xNzZwZFpsOEhXaGFwS0VRdkE9PSIsInZhbHVlIjoibmswK0Vrc0dKUHR1UmxvU0M1WTNKbFYvRHFKaGRlWE51VjlzYWswSVRXVWhUb2pHL1RZZUdRNFdhdzRXWU55bzArRlhRTTd4Zk5zaUxlR0gyMDhEM3BMcjFrME8vc0pKYnJISkMvbCtZbVljG3RJN2FSMXgrd3RtMzI5NFVYZXoiLCJtYWMiOiJmNDU3YjA5Y2MwMTExMWQ2NTExM2U3NTkwZDVmZmU1MWIzZTEzYThiZTQwY2Y1Y2E3YjFiZTgwZmM2OTI3MjMzIiwidGFnIjoiIn0," style="display: inline-block; background-color: #5b3f8c; color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; line-height: 42px; text-align: center; text-decoration: none; width: 190px; height: 42px; border-radius: 30px;">Register for the Seminar</a>
 <!--<![endif]-->
-
-<!-- ══ WRAPPER ══ -->
-<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" style="background-color:#f4f1ec;">
-<tr>
-<td align="center" style="padding-top:32px;padding-bottom:32px;padding-left:20px;padding-right:20px;">
-
-<!--[if mso]>
-<table width="680" cellpadding="0" cellspacing="0" border="0" role="presentation" align="center">
-<tr>
-<td width="680">
-<![endif]-->
-
-<!-- ══ EMAIL CONTAINER ══ -->
-<table class="email-container" width="680" cellpadding="0" cellspacing="0" border="0" role="presentation" align="center" style="max-width:680px;width:100%;background:#ffffff;border:1px solid #e8e3da;">
-
-
-  <!-- ══ HEADER ══ -->
-  <tr>
-    <td style="padding:0;font-size:0;line-height:0;">
-      <img
-        class="header-img"
-        src="https://raw.githubusercontent.com/Webster2316/Weekly_Digest_SSA/refs/heads/main/Banner.png"
-        width="680"
-        alt="SSA Weekly Digest"
-        style="display:block;width:100%;max-width:680px;border:0;height:auto;">
-    </td>
-  </tr>
-
-  <!-- Meta row -->
-  <tr>
-    <td style="background-color:#1b76bc;padding-top:12px;padding-bottom:12px;padding-left:24px;padding-right:24px;text-align:right;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#ffffff;">
-      Issue 8 June - 12 June 2026
-    </td>
-  </tr>
-  <!-- ══ END HEADER ══ -->
-
-
-  <!-- ══ SECTION 1: UPCOMING EVENTS ══ -->
-  <tr>
-    <td style="background-color:#281e7e;padding-top:14px;padding-bottom:14px;padding-left:28px;padding-right:28px;">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-        <tr>
-          <td align="center" style="font-family:'Yu Gothic UI',Arial,sans-serif;font-size:16px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#f9f6ff;">
-            Upcoming Events for the Next Three Months
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-
-  <!-- ── EVENT: AGM ── -->
-  <tr>
-    <td style="border-bottom:1px solid #e8e3da;padding:0;">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-
-        <!-- Date + Title row -->
-        <tr>
-          <td class="pad-sides" style="padding-top:14px;padding-bottom:14px;padding-left:28px;padding-right:28px;">
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-              <tr>
-                <td class="event-date-cell" width="52" valign="top" style="background-color:#281e7e;text-align:center;padding-top:6px;padding-bottom:6px;padding-left:4px;padding-right:4px;width:52px;">
-                  <span style="display:block;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:20px;font-weight:700;color:#ffffff;line-height:1;">18</span>
-                  <span style="display:block;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#f9f6ff;margin-top:3px;">Jun</span>
-                </td>
-                <td class="event-spacer-cell" width="16">&nbsp;</td>
-                <td class="event-title-cell" valign="top">
-                  <p style="margin:0 0 3px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:15px;font-weight:700;color:#281e7e;line-height:1.3;">SSA 30th Annual General Meeting &amp; Post-Annual General Meeting Cocktail Reception</p>
-                  <p style="margin:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:12px;color:#000000;letter-spacing:0.5px;">Singapore &nbsp;&#183;&nbsp; 4.30pm &#8211; 6.00pm (Registration from 3.30pm)</p>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-
-        <!-- Body -->
-        <tr>
-          <td class="body-indented pad-sides" style="padding-top:0;padding-right:28px;padding-bottom:16px;padding-left:96px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:14px;line-height:1.7;color:#000000;border-top:1px solid #e8e3da;">
-            <p style="margin-top:10px;margin-bottom:8px;margin-left:0;margin-right:0;">
-              <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding-top:2px;padding-bottom:2px;padding-left:8px;padding-right:8px;margin-right:6px;">Restricted</span>
-              <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding-top:2px;padding-bottom:2px;padding-left:8px;padding-right:8px;">In-Person</span>
-            </p>
-            <p style="margin:0;">To facilitate the smooth conduct of the AGM, we kindly remind your organisation (ordinary members) to appoint a representative to attend the meeting. Your participation is important in ensuring that the required quorum is met. If your organisation is unable to attend, please submit a duly completed proxy form to appoint a representative on your behalf. Kindly refer to <a href="https://www.ssa.org.sg/news-publications/ssa-circular/" style="color:#81bce9;text-decoration:none;">Circular SSA/072/26/EML</a> for further information on registration and proxy submission.</p>
-          </td>
-        </tr>
-
-      </table>
-    </td>
-  </tr>
-
-  <!-- ── EVENT ITEM TEMPLATE (copy/paste as needed) ── -->
-  <tr>
-    <td style="border-bottom:1px solid #e8e3da;padding:0;">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-
-        <!-- Date + Title row -->
-        <tr>
-          <td class="pad-sides" style="padding-top:14px;padding-bottom:14px;padding-left:28px;padding-right:28px;">
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-              <tr>
-                <td class="event-date-cell" width="52" valign="top" style="background-color:#281e7e;text-align:center;padding-top:6px;padding-bottom:6px;padding-left:4px;padding-right:4px;width:52px;">
-                  <span style="display:block;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:20px;font-weight:700;color:#ffffff;line-height:1;">day</span>
-                  <span style="display:block;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#f9f6ff;margin-top:3px;">month</span>
-                </td>
-                <td class="event-spacer-cell" width="16">&nbsp;</td>
-                <td class="event-title-cell" valign="top">
-                  <p style="margin:0 0 3px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:15px;font-weight:700;color:#281e7e;line-height:1.3;">Event name</p>
-                  <p style="margin:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:12px;color:#000000;letter-spacing:0.5px;">time frame</p>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-
-        <!-- Body -->
-        <tr>
-          <td class="body-indented pad-sides" style="padding-top:0;padding-right:28px;padding-bottom:16px;padding-left:96px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:14px;line-height:1.7;color:#000000;border-top:1px solid #e8e3da;">
-            <p style="margin-top:10px;margin-bottom:8px;margin-left:0;margin-right:0;">
-              <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding-top:2px;padding-bottom:2px;padding-left:8px;padding-right:8px;margin-right:6px;">invited group</span>
-              <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding-top:2px;padding-bottom:2px;padding-left:8px;padding-right:8px;">type of event</span>
-            </p>
-            <p style="margin-top:0;margin-bottom:6px;margin-left:0;margin-right:0;"><strong>Venue:</strong> edit venue name</p>
-            <p style="margin-top:0;margin-bottom:6px;margin-left:0;margin-right:0;">Registration: <a href="#" style="color:#81bce9;text-decoration:underline;">add registration link if applicable</a></p>
-            <p style="margin:0;">Event description if applicable</p>
-          </td>
-        </tr>
-
-      </table>
-    </td>
-  </tr>
-  <!-- ── END EVENT ITEM TEMPLATE ── -->
-
-
-  <!-- ══ SECTION 2: PAPERS, CIRCULARS & SURVEYS ══ -->
-  <tr>
-    <td style="background-color:#281e7e;padding-top:14px;padding-bottom:14px;padding-left:28px;padding-right:28px;">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-        <tr>
-          <td align="center" style="font-family:'Yu Gothic UI',Arial,sans-serif;font-size:16px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#f9f6ff;">
-            Papers, Circulars &amp; Surveys
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-
-  <!-- ── FOR ACTION subheader ── -->
-  <tr>
-    <td style="background-color:#281e7e;padding-top:12px;padding-bottom:12px;padding-left:28px;padding-right:28px;border-top:0px solid #e8e3da;border-bottom:1px solid #e8e3da;">
-      <table cellpadding="0" cellspacing="0" border="0" role="presentation">
-        <tr>
-          <td width="8" height="8" style="background-color:#308acf;width:8px;height:8px;font-size:1px;line-height:1px;">&nbsp;</td>
-          <td style="padding-left:10px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#f9f6ff;">For Action</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-
-  <!-- ── REVIEW ITEM: JMIC ── -->
-  <tr>
-    <td style="border-bottom:1px solid #e8e3da;padding:0;">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-        <tr>
-          <td class="pad-sides" style="padding-top:14px;padding-bottom:14px;padding-left:28px;padding-right:28px;">
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-              <tr>
-                <td class="badge-cell" valign="top" style="white-space:nowrap;width:1%;padding-right:14px;">
-                  <span style="display:inline-block;background:#d0a523;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#ffffff;padding-top:3px;padding-bottom:3px;padding-left:8px;padding-right:8px;">Review</span>
-                </td>
-                <td valign="top">
-                  <p style="margin:0 0 2px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:14px;font-weight:700;color:#281e7e;line-height:1.3;">Joint Maritime Information Center (JMIC) Advisory Notes</p>
-                  <p style="margin:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:12px;color:#000000;"><a href="https://ssaorgsg.sharepoint.com/sites/SSAKnowledgeHub/Bulletin/Forms/AllItems.aspx?id=%2Fsites%2FSSAKnowledgeHub%2FBulletin%2FJMIC&p=true&ga=1" style="color:#81bce9;text-decoration:underline;">SSA Knowledge Hub – JMIC Advisory Notes</a></p>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td class="pad-sides" style="padding-top:0;padding-right:28px;padding-bottom:16px;padding-left:28px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:14px;line-height:1.7;color:#000000;background:#faf9f6;border-top:1px solid #e8e3da;">
-            <p style="margin-top:10px;margin-bottom:6px;margin-left:0;margin-right:0;"><span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding-top:2px;padding-bottom:2px;padding-left:8px;padding-right:8px;">All Members</span></p>
-            <p style="margin:0;">Members are invited to review the revised guidelines and submit comments to the Secretariat. The circular updates watch scheduling requirements and introduces new rest hour documentation standards. Please flag any operational concerns.</p>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-
-  <!-- ── REVIEW ITEM TEMPLATE (copy/paste as needed) ── -->
-  <tr>
-    <td style="border-bottom:1px solid #e8e3da;padding:0;">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-        <tr>
-          <td class="pad-sides" style="padding-top:14px;padding-bottom:14px;padding-left:28px;padding-right:28px;">
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-              <tr>
-                <td class="badge-cell" valign="top" style="white-space:nowrap;width:1%;padding-right:14px;">
-                  <span style="display:inline-block;background:#d0a523;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#ffffff;padding-top:3px;padding-bottom:3px;padding-left:8px;padding-right:8px;">Review</span>
-                </td>
-                <td valign="top">
-                  <p style="margin:0 0 2px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:14px;font-weight:700;color:#281e7e;line-height:1.3;">Title</p>
-                  <p style="margin:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:12px;color:#000000;"><a href="#" style="color:#81bce9;text-decoration:underline;">document link</a></p>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td class="pad-sides" style="padding-top:0;padding-right:28px;padding-bottom:16px;padding-left:28px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:14px;line-height:1.7;color:#000000;background:#faf9f6;border-top:1px solid #e8e3da;">
-            <p style="margin-top:10px;margin-bottom:8px;margin-left:0;margin-right:0;">
-              <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding-top:2px;padding-bottom:2px;padding-left:8px;padding-right:8px;margin-right:6px;">Committee 1</span>
-              <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding-top:2px;padding-bottom:2px;padding-left:8px;padding-right:8px;">Committee 2</span>
-            </p>
-            <p style="margin-top:0;margin-bottom:4px;margin-left:0;margin-right:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:13px;font-weight:700;color:#000000;">Action Required</p>
-            <p style="margin-top:0;margin-bottom:14px;margin-left:0;margin-right:0;">action required and provide comments or feedback to <a href="mailto:anis@ssa.org.sg" style="color:#81bce9;text-decoration:none;">anis@ssa.org.sg</a>, if any.</p>
-            <p style="margin-top:0;margin-bottom:4px;margin-left:0;margin-right:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:13px;font-weight:700;color:#000000;">Background</p>
-            <p style="margin:0;">background details</p>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <!-- ── END REVIEW ITEM TEMPLATE ── -->
-
-
-  <!-- ── PUBLIC COMMENTS ITEM EXAMPLE ── -->
-  <tr>
-    <td style="border-bottom:1px solid #e8e3da;padding:0;">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-        <tr>
-          <td class="pad-sides" style="padding-top:14px;padding-bottom:14px;padding-left:28px;padding-right:28px;">
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-              <tr>
-                <td class="badge-cell" valign="top" style="white-space:nowrap;width:1%;padding-right:14px;">
-                  <span style="display:inline-block;background:#81bce9;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#f9f6ff;padding-top:3px;padding-bottom:3px;padding-left:8px;padding-right:8px;">Public Comments</span>
-                </td>
-                <td valign="top">
-                  <p style="margin:0 0 2px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:14px;font-weight:700;color:#281e7e;line-height:1.3;">Draft SS on Code of Practice for Meter Verification using Mass Flow Meter (Upgrade of TR 80:2020 to SS)</p>
-                  <p style="margin:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:12px;color:#000000;"><a href="#" style="color:#81bce9;text-decoration:underline;">PC Notice – 8 May 2026</a></p>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td class="pad-sides" style="padding-top:0;padding-right:28px;padding-bottom:16px;padding-left:28px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:14px;line-height:1.7;color:#000000;background:#faf9f6;border-top:1px solid #e8e3da;">
-            <p style="margin-top:10px;margin-bottom:6px;margin-left:0;margin-right:0;"><span style="display:inline-block;background:#ede9fe;border:1px solid #d3a0e6;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#ac86ea;padding-top:2px;padding-bottom:2px;padding-left:8px;padding-right:8px;">Marine Fuels</span></p>
-            <p style="margin-top:0;margin-bottom:6px;margin-left:0;margin-right:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:12px;font-weight:700;color:#cc3300;">&#9888; Time Limit</p>
-            <p style="margin:0;">Members are requested to submit comments on the Draft Singapore Standard on the Code of Practice for Meter Verification using Mass Flow Meter (Upgrade of TR 80:2020 to SS) by <strong>9 July 2026</strong> to <a href="mailto:standards@enterprisesg.gov.sg" style="color:#81bce9;text-decoration:none;">standards@enterprisesg.gov.sg</a>, with <a href="mailto:sdo@scic.sg" style="color:#81bce9;text-decoration:none;">sdo@scic.sg</a> in CC. Submission instructions are set out in the attached document.</p>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-
-  <!-- ── PUBLIC COMMENTS ITEM TEMPLATE (copy/paste as needed) ── -->
-  <tr>
-    <td style="border-bottom:1px solid #e8e3da;padding:0;">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-        <tr>
-          <td class="pad-sides" style="padding-top:14px;padding-bottom:14px;padding-left:28px;padding-right:28px;">
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-              <tr>
-                <td class="badge-cell" valign="top" style="white-space:nowrap;width:1%;padding-right:14px;">
-                  <span style="display:inline-block;background:#81bce9;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#f9f6ff;padding-top:3px;padding-bottom:3px;padding-left:8px;padding-right:8px;">Public Comments</span>
-                </td>
-                <td valign="top">
-                  <p style="margin:0 0 2px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:14px;font-weight:700;color:#281e7e;line-height:1.3;">Item Name</p>
-                  <p style="margin:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:12px;color:#000000;"><a href="https://ssaorgsg.sharepoint.com/:b:/s/SSAKnowledgeHub/IQCBNGbvSW7hS70dB0NdXWWAAfTPgaHmj7LaDJLGbvbhdck?e=5vZaZk" style="color:#81bce9;text-decoration:underline;">Main document link. Delete and add in main body if more than one</a></p>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td class="pad-sides" style="padding-top:0;padding-right:28px;padding-bottom:16px;padding-left:28px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:14px;line-height:1.7;color:#000000;background:#faf9f6;border-top:1px solid #e8e3da;">
-            <p style="margin-top:10px;margin-bottom:8px;margin-left:0;margin-right:0;">
-              <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding-top:2px;padding-bottom:2px;padding-left:8px;padding-right:8px;margin-right:6px;">Committee 1</span>
-              <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding-top:2px;padding-bottom:2px;padding-left:8px;padding-right:8px;">Committee 2</span>
-            </p>
-            <p style="margin-top:0;margin-bottom:6px;margin-left:0;margin-right:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:12px;font-weight:700;color:#cc3300;">&#9888; Urgent/deadline. edit accordingly</p>
-            <p style="margin-top:0;margin-bottom:4px;margin-left:0;margin-right:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:13px;font-weight:700;color:#000000;">Action Required</p>
-            <p style="margin-top:0;margin-bottom:14px;margin-left:0;margin-right:0;">action required and provide comments or feedback to <a href="mailto:anis@ssa.org.sg" style="color:#81bce9;text-decoration:none;">anis@ssa.org.sg</a>, if any.</p>
-            <p style="margin-top:0;margin-bottom:4px;margin-left:0;margin-right:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:13px;font-weight:700;color:#000000;">Background</p>
-            <p style="margin:0;">background details</p>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <!-- ── END PUBLIC COMMENTS ITEM TEMPLATE ── -->
-
-
-  <!-- ── FOR NOTING subheader ── -->
-  <tr>
-    <td style="background-color:#281e7e;padding-top:12px;padding-bottom:12px;padding-left:28px;padding-right:28px;border-top:1px solid #e8e3da;border-bottom:1px solid #e8e3da;">
-      <table cellpadding="0" cellspacing="0" border="0" role="presentation">
-        <tr>
-          <td width="8" height="8" style="background-color:#931bb1;width:8px;height:8px;font-size:1px;line-height:1px;">&nbsp;</td>
-          <td style="padding-left:10px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#f9f6ff;">For Noting</td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-
-  <!-- ── ADVISORY ITEM EXAMPLE ── -->
-  <tr>
-    <td style="border-bottom:1px solid #e8e3da;padding:0;">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-        <tr>
-          <td class="pad-sides" style="padding-top:14px;padding-bottom:14px;padding-left:28px;padding-right:28px;">
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-              <tr>
-                <td class="badge-cell" valign="top" style="white-space:nowrap;width:1%;padding-right:14px;">
-                  <span style="display:inline-block;background:#730303;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#f9f6ff;padding-top:3px;padding-bottom:3px;padding-left:8px;padding-right:8px;">Advisory</span>
-                </td>
-                <td valign="top">
-                  <p style="margin:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:14px;font-weight:700;color:#281e7e;line-height:1.3;">MCAOC/Advisory/2026/020 Patches Available for Actively Exploited Checkpoint Vulnerability</p>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td class="pad-sides" style="padding-top:0;padding-right:28px;padding-bottom:16px;padding-left:28px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:14px;line-height:1.7;color:#000000;background:#faf9f6;border-top:1px solid #e8e3da;">
-
-            <p style="margin-top:10px;margin-bottom:6px;margin-left:0;margin-right:0;"><span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding-top:2px;padding-bottom:2px;padding-left:8px;padding-right:8px;">All Members</span></p>
-
-            <p style="margin-top:14px;margin-bottom:4px;margin-left:0;margin-right:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:13px;font-weight:700;color:#000000;">Documents:</p>
-            <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top:0;margin-bottom:14px;">
-              <tr>
-                <td style="width:24px;vertical-align:top;">1.</td>
-                <td><a href="https://ssaorgsg.sharepoint.com/:b:/s/SSAKnowledgeHub/IQCSeHzfff_tRJmALX2ULXCBAd8zqIccgAzdhWAnzgpFNV8?e=I5bEbi" style="color:#81bce9;text-decoration:underline;">Checkpoint advisory CVE-2026-50751.pdf</a></td>
-              </tr>
-              <tr>
-                <td style="width:24px;vertical-align:top;">2.</td>
-                <td><a href="https://ssaorgsg.sharepoint.com/:t:/s/SSAKnowledgeHub/IQB07LJGIOxqQZ7XU1a2zM10AUc9QBThQwCeYFRl5R422vc?e=vFcqd1" style="color:#81bce9;text-decoration:underline;">IP.txt</a></td>
-              </tr>
-            </table>
-
-            <p style="margin-top:0;margin-bottom:4px;margin-left:0;margin-right:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:13px;font-weight:700;color:#000000;">Action Required:</p>
-            <p style="margin-top:0;margin-bottom:6px;margin-left:0;margin-right:0;">Members are requested to work with their vendors to:</p>
-            <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top:0;margin-bottom:14px;">
-              <tr>
-                <td style="width:24px;vertical-align:top;">i.</td>
-                <td>assess whether affected Checkpoint products (Security Gateways and Spark Firewall) are in use within their organisation;</td>
-              </tr>
-              <tr>
-                <td style="width:24px;vertical-align:top;">ii.</td>
-                <td>apply the relevant patches or mitigations;</td>
-              </tr>
-              <tr>
-                <td style="width:24px;vertical-align:top;">iii.</td>
-                <td>review the provided IOC list, block the identified IOCs, and scan networks and systems accordingly.</td>
-              </tr>
-            </table>
-            <p style="margin-top:0;margin-bottom:14px;margin-left:0;margin-right:0;">Members shall remain cyber vigilant and report any suspicious or abnormal cyber activities to MCAOC immediately.</p>
-
-            <p style="margin-top:0;margin-bottom:4px;margin-left:0;margin-right:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:13px;font-weight:700;color:#000000;">Background:</p>
-            <p style="margin-top:0;margin-bottom:14px;margin-left:0;margin-right:0;">Checkpoint has released a patch for CVE-2026-50751, a critical vulnerability (CVSS 9.3) affecting Mobile Access / SSL VPN, Remote Access VPN, and Spark Firewall. The vulnerability has been exploited in the wild since 7 May 2026, with some attackers deploying ransomware.</p>
-
-            <p style="margin-top:0;margin-bottom:4px;margin-left:0;margin-right:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:13px;font-weight:700;color:#000000;">Affected products:</p>
-            <!-- Products table: fixed columns, overflow gracefully on mobile -->
-            <table class="products-table" width="100%" cellpadding="6" cellspacing="0" border="0" role="presentation" style="margin-top:0;margin-bottom:14px;border:1px solid #e8e3da;border-collapse:collapse;font-size:13px;">
-              <tr style="background:#f4f1ec;">
-                <td style="border:1px solid #e8e3da;font-weight:700;padding-top:6px;padding-bottom:6px;padding-left:6px;padding-right:6px;">Product / Version</td>
-                <td style="border:1px solid #e8e3da;font-weight:700;padding-top:6px;padding-bottom:6px;padding-left:6px;padding-right:6px;">Affected</td>
-                <td style="border:1px solid #e8e3da;font-weight:700;padding-top:6px;padding-bottom:6px;padding-left:6px;padding-right:6px;">Severity</td>
-              </tr>
-              <tr>
-                <td style="border:1px solid #e8e3da;vertical-align:top;color:#81bce9;padding-top:6px;padding-bottom:6px;padding-left:6px;padding-right:6px;">Security Gateways</td>
-                <td style="border:1px solid #e8e3da;vertical-align:top;padding-top:6px;padding-bottom:6px;padding-left:6px;padding-right:6px;">
-                  &bull; R82.10 Jumbo Hotfix Take 19 or below<br>
-                  &bull; R82 Jumbo Hotfix Take 103 or below<br>
-                  &bull; R81.20 Jumbo Hotfix Take 141 or below<br>
-                  &bull; R81.10 (EOS)<br>
-                  &bull; R81 (EOS)<br>
-                  &bull; R80.40 (EOS)
-                </td>
-                <td style="border:1px solid #e8e3da;vertical-align:top;padding-top:6px;padding-bottom:6px;padding-left:6px;padding-right:6px;">Critical (CVSS 9.3)</td>
-              </tr>
-              <tr>
-                <td style="border:1px solid #e8e3da;vertical-align:top;color:#81bce9;padding-top:6px;padding-bottom:6px;padding-left:6px;padding-right:6px;">Spark Firewall</td>
-                <td style="border:1px solid #e8e3da;vertical-align:top;padding-top:6px;padding-bottom:6px;padding-left:6px;padding-right:6px;">
-                  &bull; R80.20.X (EOS)<br>
-                  &bull; R81.10.X<br>
-                  &bull; R82.00.X
-                </td>
-                <td style="border:1px solid #e8e3da;vertical-align:top;padding-top:6px;padding-bottom:6px;padding-left:6px;padding-right:6px;">Critical (CVSS 9.3)</td>
-              </tr>
-            </table>
-
-            <p style="margin-top:0;margin-bottom:4px;margin-left:0;margin-right:0;">For more information, please refer to:</p>
-            <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top:0;margin-bottom:14px;">
-              <tr>
-                <td style="width:24px;vertical-align:top;">a.</td>
-                <td><a href="https://support.checkpoint.com/results/sk/sk185033#" style="color:#81bce9;text-decoration:underline;">https://support.checkpoint.com/results/sk/sk185033</a></td>
-              </tr>
-              <tr>
-                <td style="width:24px;vertical-align:top;">b.</td>
-                <td><a href="https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/" style="color:#81bce9;text-decoration:underline;">BleepingComputer – Check Point links VPN zero-day attacks to Qilin ransomware gang</a></td>
-              </tr>
-              <tr>
-                <td style="width:24px;vertical-align:top;">c.</td>
-                <td><a href="https://www.rapid7.com/blog/post/etr-critical-check-point-vpn-zero-day-exploited-in-the-wild-cve-2026-50751/" style="color:#81bce9;text-decoration:underline;">Rapid7 – Critical Check Point VPN zero-day exploited in the wild (CVE-2026-50751)</a></td>
-              </tr>
-            </table>
-            <p style="margin-top:0;margin-bottom:14px;margin-left:0;margin-right:0;">Please find the vendor advisory attached for your convenience.</p>
-
-            <p style="margin-top:0;margin-bottom:4px;margin-left:0;margin-right:0;">Summary of Indicators of Compromise (IOCs):</p>
-            <table cellpadding="0" cellspacing="0" border="0" role="presentation" style="margin-top:0;margin-bottom:14px;">
-              <tr>
-                <td style="width:24px;vertical-align:top;">1.</td>
-                <td><strong>9</strong> IP Addresses – please refer to the <a href="https://ssaorgsg.sharepoint.com/:t:/s/SSAKnowledgeHub/IQB07LJGIOxqQZ7XU1a2zM10AUc9QBThQwCeYFRl5R422vc?e=vFcqd1" style="color:#81bce9;text-decoration:underline;">attached IP.txt</a> for details.</td>
-              </tr>
-            </table>
-
-            <p style="margin:0;">Please contact <a href="mailto:mcaoc@mpa.gov.sg" style="color:#81bce9;text-decoration:none;">mcaoc@mpa.gov.sg</a> for any clarifications.</p>
-
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-
-  <!-- ── ADVISORY ITEM TEMPLATE (copy/paste as needed) ── -->
-  <tr>
-    <td style="border-bottom:1px solid #e8e3da;padding:0;">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-        <tr>
-          <td class="pad-sides" style="padding-top:14px;padding-bottom:14px;padding-left:28px;padding-right:28px;">
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-              <tr>
-                <td class="badge-cell" valign="top" style="white-space:nowrap;width:1%;padding-right:14px;">
-                  <span style="display:inline-block;background:#730303;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#f9f6ff;padding-top:3px;padding-bottom:3px;padding-left:8px;padding-right:8px;">Advisory</span>
-                </td>
-                <td valign="top">
-                  <p style="margin:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:14px;font-weight:700;color:#281e7e;line-height:1.3;">Item Name</p>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td class="pad-sides" style="padding-top:0;padding-right:28px;padding-bottom:16px;padding-left:28px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:14px;line-height:1.7;color:#000000;background:#faf9f6;border-top:1px solid #e8e3da;">
-            <p style="margin-top:10px;margin-bottom:8px;margin-left:0;margin-right:0;">
-              <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding-top:2px;padding-bottom:2px;padding-left:8px;padding-right:8px;margin-right:6px;">Committee 1</span>
-              <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding-top:2px;padding-bottom:2px;padding-left:8px;padding-right:8px;">Committee 2</span>
-            </p>
-            <p style="margin-top:0;margin-bottom:4px;margin-left:0;margin-right:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:13px;font-weight:700;color:#000000;">Action Required:</p>
-            <p style="margin-top:0;margin-bottom:4px;margin-left:0;margin-right:0;">ACTION TO EDIT</p>
-            <p style="margin-top:0;margin-bottom:4px;margin-left:0;margin-right:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:13px;font-weight:700;color:#000000;">Background:</p>
-            <p style="margin:0;">Background details</p>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <!-- ── END ADVISORY ITEM TEMPLATE ── -->
-
-
-  <!-- ── FOR NOTING ITEM EXAMPLE ── -->
-  <tr>
-    <td style="border-bottom:1px solid #e8e3da;padding:0;">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-        <tr>
-          <td class="pad-sides" style="padding-top:14px;padding-bottom:14px;padding-left:28px;padding-right:28px;">
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-              <tr>
-                <td class="badge-cell" valign="top" style="white-space:nowrap;width:1%;padding-right:14px;">
-                  <span style="display:inline-block;background:#281e7e;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#f9f6ff;padding-top:3px;padding-bottom:3px;padding-left:8px;padding-right:8px;">MC(26)68</span>
-                </td>
-                <td valign="top">
-                  <p style="margin:0 0 2px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:14px;font-weight:700;color:#281e7e;line-height:1.3;">MC(26)68 &#8211; Transits Through Omani Coastal Waters in the Strait of Hormuz</p>
-                  <p style="margin:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:12px;color:#000000;"><a href="#" style="color:#81bce9;text-decoration:underline;">MC(26)68 &#8211; Transits Through Omani Coastal Waters in the Strait of Hormuz</a></p>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td class="pad-sides" style="padding-top:0;padding-right:28px;padding-bottom:16px;padding-left:28px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:14px;line-height:1.7;color:#000000;background:#faf9f6;border-top:1px solid #e8e3da;">
-            <p style="margin-top:10px;margin-bottom:8px;margin-left:0;margin-right:0;"><span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding-top:2px;padding-bottom:2px;padding-left:8px;padding-right:8px;">International, Technical</span></p>
-            <p style="margin:0;">The United States Navy (USN) has established a monitoring programme for vessels transiting the Strait of Hormuz via the Omani coastal route. The USN does not provide convoy coordination, escorts, or vessel prioritisation, and assumes no responsibility for ships using this route. Operators should conduct thorough threat assessments in line with BMP Maritime Security and industry guidance on safe management of Strait of Hormuz transits. Queries may be directed to the US Fifth Fleet NCAGS (<a href="mailto:m-ba-navcent-ncags@us.navy.mil" style="color:#81bce9;text-decoration:none;">m-ba-navcent-ncags@us.navy.mil</a>). Members are reminded to verify that any correspondence originates from a us.navy.mil domain.</p>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-
-  <!-- ── FOR NOTING ITEM TEMPLATE (copy/paste as needed) ── -->
-  <tr>
-    <td style="border-bottom:1px solid #e8e3da;padding:0;">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-        <tr>
-          <td class="pad-sides" style="padding-top:14px;padding-bottom:14px;padding-left:28px;padding-right:28px;">
-            <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-              <tr>
-                <td class="badge-cell" valign="top" style="white-space:nowrap;width:1%;padding-right:14px;">
-                  <span style="display:inline-block;background:#281e7e;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#f9f6ff;padding-top:3px;padding-bottom:3px;padding-left:8px;padding-right:8px;">Doc src name (e.g. IMO)</span>
-                </td>
-                <td valign="top">
-                  <p style="margin:0 0 2px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:14px;font-weight:700;color:#281e7e;line-height:1.3;">Item name</p>
-                  <p style="margin:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:12px;color:#000000;"><a href="#" style="color:#81bce9;text-decoration:underline;">Document link either here</a></p>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td class="pad-sides" style="padding-top:0;padding-right:28px;padding-bottom:16px;padding-left:28px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:14px;line-height:1.7;color:#000000;background:#faf9f6;border-top:1px solid #e8e3da;">
-            <p style="margin-top:10px;margin-bottom:8px;margin-left:0;margin-right:0;">
-              <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding-top:2px;padding-bottom:2px;padding-left:8px;padding-right:8px;margin-right:6px;">Committee 1</span>
-              <span style="display:inline-block;background:#f4f1ec;border:1px solid #e8e3da;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#000000;padding-top:2px;padding-bottom:2px;padding-left:8px;padding-right:8px;">Committee 2</span>
-            </p>
-            <p style="margin-top:14px;margin-bottom:4px;margin-left:0;margin-right:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:13px;font-weight:700;color:#000000;">Documents:</p>
-            <p style="margin-top:0;margin-bottom:4px;margin-left:0;margin-right:0;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:13px;font-weight:700;color:#000000;">Remarks:</p>
-            <p style="margin:0;">Remarks to edit</p>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-  <!-- ── END FOR NOTING ITEM TEMPLATE ── -->
-
-
-  <!-- ══ FOOTER ══ -->
-  <tr>
-    <td class="footer-cell" style="background-color:#281e7e;padding-top:24px;padding-bottom:24px;padding-left:28px;padding-right:28px;">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-        <tr>
-          <td align="center">
-            <p style="margin:0 0 8px;font-family:'Yu Gothic UI',Arial,sans-serif;font-size:12px;color:#ffffff;line-height:1.7;">You are receiving this Weekly Digest because you are a Tier 1 member of an SSA Committee. This Weekly Digest is circulated to keep committee members informed of developments and matters under consideration across SSA Committees. As this distribution is tied to committee membership, members who wish to discontinue receiving the Digest will need to resign from their committee appointment by contacting <a href="mailto:ssa.admin@ssa.org.sg" style="color:#81bce9;text-decoration:none;">ssa.admin@ssa.org.sg</a>.</p>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-
-
-</table>
-<!-- ══ END EMAIL CONTAINER ══ -->
-
-<!--[if mso]>
 </td>
 </tr>
 </table>
-<![endif]-->
 
+<!-- ========================================================= COMMON CHALLENGES ========================================================= -->
+<p style="margin: 28px 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 17px; line-height: 23px; font-weight: bold; color: #1f5e4e;">Common AI Adoption Challenges Observed</p>
+
+<p style="margin: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #2d3748;">As organisations progress beyond pilot projects, several operational challenges are emerging:</p>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; padding-bottom: 5px;">Scaling successful pilots across multiple business functions</td></tr>
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; padding-bottom: 5px;">Ensuring data quality and consistency for reliable AI outputs</td></tr>
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; padding-bottom: 5px;">Defining governance, accountability and human oversight</td></tr>
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; padding-bottom: 5px;">Integrating AI tools into existing workflows without adding complexity</td></tr>
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;">Measuring long-term business impact beyond initial productivity gains</td></tr>
+</table>
+
+<!-- ========================================================= SUGGESTED ACTION ========================================================= -->
+<p style="margin: 28px 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 17px; line-height: 23px; font-weight: bold; color: #1f5e4e;">Suggested Action This Month</p>
+
+<p style="margin: 0 0 10px 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; color: #2d3748;">Practical priorities identified through ongoing industry engagement include:</p>
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; padding-bottom: 5px;">Prioritise low-risk, high-impact AI use cases</td></tr>
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; padding-bottom: 5px;">Map cross-departmental data dependencies</td></tr>
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; padding-bottom: 5px;">Establish governance for AI-generated outputs</td></tr>
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px; padding-bottom: 5px;">Strengthen data quality and accessibility</td></tr>
+<tr><td valign="top" width="20">•</td><td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 24px;">Standardise AI workflows and best practices across teams</td></tr>
+</table>
+
+<!-- FINAL HIGHLIGHT -->
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="padding: 18px; background-color: #f4f7fb; border-left: 4px solid #1f5e4e;">
+<p style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22px; color: #2d3748;">Small, well-defined pilot projects often provide the strongest foundation for broader AI adoption across the organisation.</p>
 </td>
 </tr>
 </table>
-<!-- ══ END WRAPPER ══ -->
 
+</td>
+</tr>
+
+<!-- ========================================================= FOOTER ========================================================= -->
+<tr>
+<td align="center" bgcolor="#1F3A5F" style="padding: 22px; background-color: #1f3a5f; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 20px; color: #dbe7f4;">
+<p style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 20px; font-weight: bold; color: #ffffff;">Singapore Shipping Association</p>
+<p style="margin: 4px 0 12px 0; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 20px; color: #dbe7f4;">footer</p>
+<p style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 20px; color: #dbe7f4;">footerrrrr.</p>
+</td>
+</tr>
+
+</table>
+</td>
+</tr>
+</table>
 </body>
 </html>
